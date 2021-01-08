@@ -26,7 +26,7 @@ const useStyles = makeStyles({
 
 
 export default function Slider_(props) {
-	const [value, setValue] = useState(0);
+	const [value, setValue] = useState(50);
 	const classes = useStyles();
 
 	const handleSliderChange = (event, newValue) => {

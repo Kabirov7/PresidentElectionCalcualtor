@@ -12,7 +12,7 @@ export default class StartPageC extends Component {
 		answers: {},
 		forms: [],
 		result: [],
-		range: 0
+		range: 50
 	}
 
 
