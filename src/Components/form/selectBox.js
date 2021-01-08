@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import { Typography } from '@material-ui/core';
+import {Typography} from '@material-ui/core';
 import './form.css'
 
 const useStyles = makeStyles((theme) => ({
@@ -13,17 +13,17 @@ const useStyles = makeStyles((theme) => ({
 		maxWidth: 300
 	},
 	question:{
-		fontFamily: "Roboto",
-		fontWeight:"900",
-		fontSize: 17
+		fontFamily: "PT Serif",
+		fontWeight:"700",
+		fontSize: 20
 	}
 }));
-export default function SelectBox(props){
+export default function SelectBox(props) {
 	const classes = useStyles();
 	const [value, setValue] = React.useState('');
 	const [open, setOpen] = React.useState(false);
 
-	const {index, response, required, locked, keyMap } = props
+	const {index, response, required, locked, keyMap} = props
 
 	useEffect(() => {
 		if (response) {

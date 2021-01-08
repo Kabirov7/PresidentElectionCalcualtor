@@ -4,26 +4,23 @@ import './form.css'
 
 const useStyles = makeStyles({
 	root: {
-		// width: "90%",
-		// alignItems: "center",
 		paddingTop: "25px",
-
 	},
 	input: {
 		width: 42,
 	},
 	text: {
-    fontSize: "18px",
-		fontFamily: "Roboto",
+		fontSize: "18px",
+		fontFamily: "PT Serif",
 		fontWeight: "700",
 	},
 	supportText: {
-		fontFamily: "Roboto",
+		fontFamily: "PT Serif",
 		fontWeight: "300",
+		margin:"10px 0px 15px 0px",
 
 	}
 });
-
 
 export default function Slider_(props) {
 	const [value, setValue] = useState(50);
@@ -38,7 +35,7 @@ export default function Slider_(props) {
 	let male = lastName[lastName.length - 1];
 
 
-	return (<div className={classes.root} style={{fontFamily: "Roboto"}}>
+	return (<div className={classes.root} style={{fontFamily: "PT Serif"}}>
 			<Typography className={classes.text}>
 				Сколько людей должно проголосовать за других кандидатов или против всех,
 				чтобы {props.candidate} не {male=="а" ? "выиграла" : "выиграл"} в
