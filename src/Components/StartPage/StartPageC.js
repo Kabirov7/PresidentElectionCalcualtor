@@ -53,10 +53,11 @@ export default class StartPageC extends Component {
 	agree = () => {
 		let content = (
 			<div>
-				<Typography style={{marginTop: "20px"}}> Что ж, вы хотите победы самого популярного, на ваш взгляд, кандидата, а
+				<p className={"contentText"}>
+					Что ж, вы хотите победы самого популярного, на ваш взгляд, кандидата, а
 					значит вам не за что
 					переживать. Идите на участок и голосуйте, вы имеете на это полное право.
-				</Typography>
+				</p>
 			</div>
 		)
 
@@ -129,10 +130,10 @@ export default class StartPageC extends Component {
 
 	render() {
 		let d = '';
-		if (this.state.answers.candidate != undefined && this.state.answers.agree != undefined){
+		if (this.state.answers.candidate != undefined && this.state.answers.agree != undefined) {
 			d = (this.state.answers.agree == "Да") ? this.agree() :
-			(this.state.answers.agree == "Нет") ? this.disagree() :
-				<div></div>
+				(this.state.answers.agree == "Нет") ? this.disagree() :
+					<div></div>
 		}
 
 
