@@ -11,7 +11,7 @@ const useStyles = makeStyles({
 	},
 	text: {
 		fontSize: "20px",
-		fontFamily: "PT Serif",
+		fontFamily: "Roboto",
 		fontWeight: "700",
 	},
 	supportText: {

@@ -70,29 +70,29 @@ export default class StartPageC extends Component {
 
 		let content = (
 			<div className={"content"}>
-				<Typography className={"contentText"}>Итак, вы считаете, что {this.state.answers.candidate} имеет
+				<p className={"contentText"}>Итак, вы считаете, что {this.state.answers.candidate} имеет
 					слишком большую популярность
-					и может выиграть уже в первом туре, но вы этого не хотите.</Typography>
-				<Typography className={"contentText"}>
+					и может выиграть уже в первом туре, но вы этого не хотите.</p>
+				<p className={"contentText"}>
 					Как сделать так, чтобы вашему нелюбимому кандидату пришлось упорно
 					бороться за президентское кресло? Как оттянуть борьбу хотя бы на второй тур?
-				</Typography>
-				<Typography className={"contentText"}>
+				</p>
+				<p className={"contentText"}>
 					Второй тур президентских выборов будет невероятным прецедентом в истории Кыргызстана! У нас <a
 					href="https://kloop.kg/blog/2017/10/26/samara_elections_kg/" target="_blank">украли эту возможность в 2017
 					году
 				</a>, так давайте добьёмся этого сейчас!
-				</Typography>
-				<Typography className={"contentText"}>Для этого надо, чтобы ваш нелюбимый кандидат набрал меньше 50% голосов.
+				</p>
+				<p className={"contentText"}>Для этого надо, чтобы ваш нелюбимый кандидат набрал меньше 50% голосов.
 					Как этого добиться?
 					Достаточно, чтобы за остальных кандидатов или против всех проголосовало больше половины
 					избирателей.
-				</Typography>
-				<Typography className={"contentText"}>
+				</p>
+				<p className={"contentText"}>
 					<b>
 						ВАЖНО!
-					</b> При этом надо обязательно пойти на участок и проголосовать!</Typography>
-				<Typography className={"contentText"}>
+					</b> При этом надо обязательно пойти на участок и проголосовать!</p>
+				<p className={"contentText"}>
 					<b>
 						Закон о выборах президента Кыргызской Республики и депутатов Жогорку
 						Кенеша Кыргызской Республики, статья 55, пункт 3:
@@ -100,7 +100,7 @@ export default class StartPageC extends Component {
 					голосов всех избирателей, <b>
 					принявших участие в выборах
 				</b>».
-				</Typography>
+				</p>
 				<Slider_ returnRange={this.returnRange} candidate={this.state.answers.candidate}/>
 				<div className={"resultContainer"}>
 					<p>
