@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PresidentElectionCalcualtor/static/css/main.79f218d3.chunk.css",
-    "main.js": "/PresidentElectionCalcualtor/static/js/main.c4142f4e.chunk.js",
-    "main.js.map": "/PresidentElectionCalcualtor/static/js/main.c4142f4e.chunk.js.map",
+    "main.js": "/PresidentElectionCalcualtor/static/js/main.db7f1748.chunk.js",
+    "main.js.map": "/PresidentElectionCalcualtor/static/js/main.db7f1748.chunk.js.map",
     "runtime-main.js": "/PresidentElectionCalcualtor/static/js/runtime-main.53991e9c.js",
     "runtime-main.js.map": "/PresidentElectionCalcualtor/static/js/runtime-main.53991e9c.js.map",
     "static/js/2.0129a1e9.chunk.js": "/PresidentElectionCalcualtor/static/js/2.0129a1e9.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.53991e9c.js",
     "static/js/2.0129a1e9.chunk.js",
     "static/css/main.79f218d3.chunk.css",
-    "static/js/main.c4142f4e.chunk.js"
+    "static/js/main.db7f1748.chunk.js"
   ]
 }
