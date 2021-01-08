@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import StartPage from "./Components/StartPage/StartPage";
+import StartPageC from "./Components/StartPage/StartPageC";
 import React from "react";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
 				<Route exact path={"/PresidentElectionCalcualtor"}>
-					<StartPage/>
+					<StartPageC/>
 				</Route>
 			</Router>
     </div>
