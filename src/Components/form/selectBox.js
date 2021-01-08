@@ -58,7 +58,6 @@ export default function SelectBox(props){
 					onOpen={handleOpen}
 					value={value}
 					onChange={handleChange}>
-					<MenuItem value={""}><em>None</em></MenuItem>
 					{props.answers.map((el, i) => <MenuItem key={i} value={el}>{el}</MenuItem>)}
 				</Select>
 			</FormControl>
