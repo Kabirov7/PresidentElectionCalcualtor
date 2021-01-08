@@ -10,7 +10,7 @@ const useStyles = makeStyles({
 		width: 42,
 	},
 	text: {
-		fontSize: "18px",
+		fontSize: "20px",
 		fontFamily: "PT Serif",
 		fontWeight: "700",
 	},
@@ -35,7 +35,7 @@ export default function Slider_(props) {
 	let male = lastName[lastName.length - 1];
 
 
-	return (<div className={classes.root} style={{fontFamily: "PT Serif"}}>
+	return (<div className={classes.root} style={{fontFamily: "Roboto"}}>
 			<Typography className={classes.text}>
 				Сколько людей должно проголосовать за других кандидатов или против всех,
 				чтобы {props.candidate} не {male=="а" ? "выиграла" : "выиграл"} в
